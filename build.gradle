@@ -11,7 +11,7 @@ allprojects {
             prefix = 'release/'+project.name+'-'
         }
         // we want uncommitted changes to make a difference to versions
-        ignoreUncommittedChanges = false;
+//        ignoreUncommittedChanges = false;
     }
     project.version = scmVersion.version
     apply plugin: 'eclipse'
