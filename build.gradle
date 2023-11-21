@@ -1,5 +1,6 @@
 plugins {
-    id("pl.allegro.tech.build.axion-release") version "1.13.2"
+    id 'pl.allegro.tech.build.axion-release' version '1.15.5'
+//    id("pl.allegro.tech.build.axion-release") version "1.15.5"
 }
 
 allprojects {
