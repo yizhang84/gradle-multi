@@ -8,7 +8,7 @@ allprojects {
 
     scmVersion {
         tag {
-            prefix = 'release/'+project.name
+            prefix = 'release/'+project.name+'-'
         }
         // we want uncommitted changes to make a difference to versions
         ignoreUncommittedChanges = false;
